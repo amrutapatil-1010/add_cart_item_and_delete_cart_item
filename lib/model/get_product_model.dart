@@ -38,7 +38,7 @@ class ProductData {
   String? reason;
   List<String>? productImage;
   int? iV;
-  int? productCount=0;
+  int? productCount = 0;
   ProductData(
       {this.sId,
       this.subHeading,
@@ -56,7 +56,7 @@ class ProductData {
       this.reason,
       this.productImage,
       this.iV,
-      this.productCount});
+      this.productCount = 0});
 
   ProductData.fromJson(Map<String, dynamic> json) {
     sId = json['_id'];
